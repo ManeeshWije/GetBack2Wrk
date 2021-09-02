@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "GetBack2Wrk",
+  "description": "Making sure you're not slacking off...",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ],
+  "permissions": [
+    "https://www.youtube.com/*",
+    "https://www.facebook.com/*",
+    "https://www.netflix.com/*",
+    "https://www.instagram.com/*",
+    "https://www.twitter.com/*",
+    "https://www.tiktok.com/*",
+    "https://www.linkedin.com/*",
+    "https://www.pinterest.ca/*",
+    "https://www.tumblr.com/*",
+    "https://www.reddit.com/*",
+    "https://www.snapchat.com/*"
+  ]
+}
