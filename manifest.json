@@ -9,6 +9,8 @@
       "js": ["script.js"]
     }
   ],
+  "web_accessible_resources": ["dad.jpg", "script.js"],
+
   "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
   "permissions": [
     "https://www.youtube.com/*",
@@ -16,6 +18,7 @@
     "https://www.netflix.com/*",
     "https://www.instagram.com/*",
     "https://www.twitter.com/*",
+    "https://www.pornhub.com/*",
     "https://www.tiktok.com/*",
     "https://www.linkedin.com/*",
     "https://www.pinterest.ca/*",
