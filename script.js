@@ -1,5 +1,5 @@
 const changeBody = () => {
-  console.log("works");
+//  console.log("works");
   let img = document.createElement("img");
   img.style.cssText = "height: 100vh;width:100%;";
   img.src = chrome.runtime.getURL("dad.jpg");
